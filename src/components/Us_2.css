@@ -1,0 +1,50 @@
+.section-us-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 33px 0;
+  padding-right: 160px;
+  height: auto;
+}
+
+.section-us-2 img {
+  margin-right: 40px;
+}
+
+.secton-us-2-box {
+  height: 100%;
+  width: 100%;
+  font-family: "Karla", sans-serif;
+}
+
+.secton-us-2-box h4 {
+  font-size: 3rem;
+  width: 100%;
+  font-family: "Karla", sans-serif;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+  .section-us-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 33px 0;
+    padding: 20px;
+    height: auto;
+  }
+  .section-us-2 img {
+    margin-right: 0px;
+  }
+  .secton-us-2-box {
+    margin-top: 30px;
+  }
+
+  .secton-us-2-box h4 {
+    font-size: 2rem;
+    width: 100%;
+    font-family: "Karla", sans-serif;
+    margin-bottom: 20px;
+}
+  
+  
+}

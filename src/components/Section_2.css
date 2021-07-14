@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap");
+
+.section-2 {
+  min-height: 500px;
+  height: auto !important;
+  padding: 2rem 160px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-2 > h2 {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Karla", sans-serif;
+}
+
+.section-2 > p {
+  margin: 20px 200px;
+  font-size: 32px;
+  line-height: 42px;
+  font-family: "Karla", sans-serif;
+  text-align: center;
+  font-weight: 200;
+}
+
+p span {
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: "Karla", sans-serif;
+  color: #7561cf;
+  display: inline;
+  cursor: pointer;
+}
+
+.btn-section-2 {
+  font-size: 25px;
+  margin-top: 20px;
+  width: 30%;
+  text-transform: capitalize !important;
+  font-size: 16px !important;
+  transition: all ease 0.6s;
+  font-family: "Karla", sans-serif;
+}
+
+@media (max-width: 900px) {
+  .section-2 {
+    min-height: 500px;
+    height: auto !important;
+    padding: 2rem 10px;
+  }
+  .section-2 > p {
+    margin: 20px 10px;
+    font-size: 23px;
+  }
+  p span {
+    font-size: 23px;
+  }
+  
+  
+
+}
+

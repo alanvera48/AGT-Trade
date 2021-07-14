@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+
+.section{
+    height: 100vh;
+}
+
+.section-1{
+    padding-top: 100px;
+    padding-left: 160px;
+    padding-right: 100px;
+    height: 90vh;
+    background-image: url("../images/city.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+    position: relative;
+}
+
+.section-back-1{
+    background-image: url("../images/city.jpg");
+}
+
+.section-back-2{
+    background-image: url("../images/aduana.jpg");
+}
+
+.section-back-3{
+    background-image: url("../images/section1.jpeg");
+}
+
+.section-1::before{
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0  ;
+    width: 100%;
+    height: 100%;
+}
+
+.section-1  h1,span{
+    color: #fff;
+    z-index: 50;
+    margin-bottom: 2rem;
+}
+.btn-section{
+    z-index: 50; 
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+    letter-spacing: 5px;
+    font-family: 'Castoro', serif;
+
+}
+span{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 100;
+    text-align: center;
+}
+
+span b{
+    text-decoration: underline;
+    color: rgb(235, 235, 235);
+    transition: all ease .5s;
+}
+
+span b:hover{
+    color: rgb(58, 171, 190)
+}
+
+
+@media (max-width: 900px) {
+    .section-1{
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 90vh;
+    }
+
+    h1{
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+    }
+
+    span{
+        font-size: 1rem;
+        text-align: start;
+    }
+    
+  
+  }
+
